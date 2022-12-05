@@ -49,7 +49,7 @@ class Game(arcade.View):
         self.window.set_mouse_visible(False)
 
         # Set the background color
-        arcade.set_background_color(arcade.color.BLUE)
+        arcade.set_background_color(arcade.color.ROSE)
 
     def setup(self):
 
