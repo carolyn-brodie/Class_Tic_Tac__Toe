@@ -49,7 +49,7 @@ class Game(arcade.View):
         self.window.set_mouse_visible(False)
 
         # Set the background color
-        arcade.set_background_color(arcade.color.WHITE)
+        arcade.set_background_color(arcade.color.BLUE)
 
     def setup(self):
 
@@ -65,7 +65,7 @@ class Game(arcade.View):
 
     def on_draw(self):
         """Render the screen. """
-
+        #Adding a comment
         arcade.start_render()
         ## Draw Score area
         arcade.draw_rectangle_filled(SCREEN_WIDTH//2,SCREEN_HEIGHT-25,SCREEN_WIDTH,50,arcade.color.GRAY)
